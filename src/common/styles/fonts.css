@@ -1,0 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600';
+
+:global(*) {
+    font-family: 'Open Sans', sans-serif;
+}

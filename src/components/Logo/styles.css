@@ -1,0 +1,22 @@
+@value colors: "../../common/styles/colors.css";
+@value normalBlue, darkBlue from colors;
+
+.logoText {
+    font-size: 30px;
+    cursor: default;
+    user-select: none;
+}
+
+.thickText {
+
+    composes: logoText;
+    color: darkBlue;
+    font-weight: 300;
+    margin-left: -3px;
+}
+
+.boldText {
+    composes: logoText;
+    color: normalBlue;
+    font-weight: 600;
+}

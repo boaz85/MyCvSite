@@ -1,0 +1,27 @@
+@value colors: "../../common/styles/colors.css";
+@value normalRed, lightBlue from colors;
+
+.container {
+    display: table;
+    width: 100%;
+    height: 10rem;
+    padding: 1rem 2rem;
+    background-color: normalRed;
+}
+
+.portrait {
+    height: 180px;
+    width: 180px;
+}
+
+.textsContainer {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 1rem;
+    width: 40rem;
+}
+
+h2 {
+    margin-top: 0;
+    color: lightBlue;
+}
